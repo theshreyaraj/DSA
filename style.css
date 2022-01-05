@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&display=swap');
+
+body{
+    background-color: aliceblue;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color:cadetblue;
+    color: black;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 66px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color:cadetblue;
+    color:black;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 45%;
+   border-radius: 12px;
+   padding: 34px;
+}
+
+
+.chapterlistcontainer{
+    margin-top: 74px;
+}
+
+.chapterlist{
+    height: 50px;
+    display: flex;
+    font-family: 'Architects Daughter', cursive;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.chaptername{
+   font-weight: bolder;
+}
+
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color:crimson;
+}
+
+a:active{
+    color: black;
+}

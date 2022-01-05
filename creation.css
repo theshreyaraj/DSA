@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&display=swap');
+
+
+body{
+    background-color:darkcyan;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
